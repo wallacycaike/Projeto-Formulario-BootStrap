@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url("../images/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.formBody {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  color: #fff;
+  height: auto;
+  width: 450px;
+}
+@media (max-width: 450px) {
+  .formBody {
+    width: auto;
+  }
+}
+
+.formFooter {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.topLogo {
+  width: 190px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

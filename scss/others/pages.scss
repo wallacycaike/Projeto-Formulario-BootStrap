@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("../../images/backgroundLp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.formBody{
+    background-color: $background-color;
+    color: $text-color;
+    height: auto;
+    width: 450px;
+
+    @media (max-width: 450px){
+        width: auto;
+    }
+}
+
+.formFooter{
+    color: $text-color;
+    margin-top: 30px;
+}
+
+.topLogo{
+    width: 190px;
+}
+
+.paragraph{
+    margin: 8px 0px;
+}
